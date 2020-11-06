@@ -2,8 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -12,5 +10,19 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #FAFAFA;
+  font-family: 'Indie Flower', cursive;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
 }

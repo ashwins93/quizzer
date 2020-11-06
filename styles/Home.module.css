@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,6 +112,33 @@
 
 .logo {
   height: 1em;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 24px;
+  background-color: transparent;
+  color: #FAFAFA;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  border-color: #FAFAFA;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+}
+
+.menu {
+  list-style: none inside none;
+}
+
+.menu-item {
+  padding: 0.5rem 0;
 }
 
 @media (max-width: 600px) {
